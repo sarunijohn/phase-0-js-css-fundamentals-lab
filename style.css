@@ -1,0 +1,107 @@
+/* 1. Target the navigation bar using a class selector */
+.navbar {
+  background-color: #333;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* 2. For the unordered list within the navigation bar */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. For each list item in the navigation bar */
+.navbar li {
+  display: inline;
+  margin: 0 1em;
+}
+
+/* 4. Style the anchor tags within the list items */
+.navbar li a {
+  color: #fff;
+}
+
+/* 1. Add padding to the top of the main content */
+main {
+  padding-top: 5em;
+}
+
+/* 2. For each section within the main content */
+main section {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+/* 3. For the home section (use .home if your HTML uses a class instead of an id) */
+#home h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+#home p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* 1. Use a flexbox layout for the portfolio container */
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+/* 2. Style each portfolio item */
+.portfolio-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+
+/* 3. Style the headings within the portfolio items */
+.portfolio-item h3 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* 4. Style the paragraphs within the portfolio items */
+.portfolio-item p {
+  margin-bottom: 0.5em;
+  color: #666;
+}
+
+/* 5. Style the images within the portfolio items */
+.portfolio-item img {
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply a scaling transformation to portfolio items when hovered over */
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+/* Target the footer using an ID selector */
+#footer {
+  background-color: #222;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
